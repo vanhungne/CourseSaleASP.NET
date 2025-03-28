@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/Cursus-Projet-Api-Management/apis/ProjectCursusGroup3API",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/Project-Cursus-Api/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsCursusDB_619C3EC8C5",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/cursusdb-1102/databases/Project_Cursus_Group3.API_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:CursusDB"
+    }
+  }
+}
